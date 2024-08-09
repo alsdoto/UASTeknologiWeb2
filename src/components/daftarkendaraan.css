@@ -1,0 +1,125 @@
+/* src/components/daftarkendaraan.css */
+
+.daftar-kendaraan-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .form .add-button {
+    margin-right: 10px; /* Jarak antara tombol tambah dan tombol kembali */
+  }
+  
+  .form .back-button {
+    background-color: #e74c3c;
+  }
+  
+  .form .back-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .list {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .list h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .kendaraan-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .kendaraan-card span {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .kendaraan-card .button-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .kendaraan-card button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px; /* Jarak antar tombol Edit dan Hapus */
+  }
+  
+  .kendaraan-card .edit-button {
+    background-color: #f39c12;
+  }
+  
+  .kendaraan-card .edit-button:hover {
+    background-color: #e67e22;
+  }
+  
+  .kendaraan-card .delete-button {
+    background-color: #e74c3c;
+  }
+  
+  .kendaraan-card .delete-button:hover {
+    background-color: #c0392b;
+  }
+  

@@ -1,0 +1,119 @@
+/* src/components/Login.css */
+.login-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, #19bbd8, #58ffd5); /* Gradasi Biru */
+}
+
+.login-image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #001f3f; /* Warna latar belakang kontainer gambar */
+    position: relative;
+    padding: 20px;
+}
+
+.image-title {
+    color: #ffffff; /* Warna teks judul */
+    font-size: 32px; /* Ukuran font judul */
+    margin-bottom: 10px; /* Jarak di bawah judul */
+    text-align: center; /* Agar teks berada di tengah */
+    font-weight: bold;
+}
+
+.sub-title {
+    color: #ffffff; /* Warna teks judul kedua */
+    font-size: 24px; /* Ukuran font judul kedua */
+    margin: 10px 0; /* Jarak di atas dan bawah judul kedua */
+    text-align: center; /* Agar teks berada di tengah */
+    font-weight: normal;
+}
+
+.image-caption {
+    color: #ffffff; /* Warna teks caption */
+    font-size: 18px; /* Ukuran font caption */
+    text-align: center; /* Agar teks berada di tengah */
+    font-style: italic;
+    margin-top: 10px; /* Jarak di atas caption */
+}
+
+.login-image {
+    max-width: 54%; /* Atur ukuran maksimal gambar */
+    height: auto; /* Pertahankan rasio aspek gambar */
+    border-radius: 8px;
+}
+
+.login-form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0; /* Abu-abu terang */
+}
+
+.login-form {
+    background-color: #fff3f3;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #001f3f; /* Biru gelap */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #0074d9; /* Biru sedang */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #36a7c9; /* Biru sedang */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0fe3ff; /* Biru tua */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.icon {
+    color: #001f3f; /* Biru gelap */
+    cursor: pointer;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #001f3f; /* Biru gelap */
+}

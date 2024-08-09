@@ -1,0 +1,106 @@
+/* Pembayaran Container */
+.pembayaran-container {
+  padding: 20px;
+  background-color: #ecf0f1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+.pembayaran-container h1 {
+  font-size: 36px;
+  color: #34495e;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Pembayaran Card */
+.pembayaran-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+}
+
+/* Info Items */
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.info-value {
+  font-size: 18px;
+  color: #34495e;
+}
+
+/* Button Group */
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button-group button {
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.pay-button {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.pay-button:hover {
+  background-color: #1e8449;
+}
+
+.back-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.back-button:hover {
+  background-color: #c0392b;
+}
+
+.button-group button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Payment Status */
+.payment-status {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.payment-status.success {
+  color: #2ecc71; /* Hijau untuk sukses */
+}
+
+.payment-status.error {
+  color: #e74c3c; /* Merah untuk error */
+}
